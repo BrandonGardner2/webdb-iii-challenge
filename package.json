@@ -1,7 +1,7 @@
 {
   "scripts": {
     "server": "nodemon index.js",
-    "server:seed": ""
+    "server:seed": "npx knex seed:run"
   },
   "dependencies": {
     "express": "^4.16.4",
